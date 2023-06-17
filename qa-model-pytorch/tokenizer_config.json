@@ -1,0 +1,16 @@
+{
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": true,
+  "mask_token": "[MASK]",
+  "model_max_length": 1000000000000000019884624838656,
+  "name_or_path": "indolem/indobert-base-uncased",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "/home/riset/.cache/huggingface/hub/models--indolem--indobert-base-uncased/snapshots/b6663c19a819c04798e7a93d681f9bc34ed57b4a/special_tokens_map.json",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}

@@ -1,0 +1,1 @@
+Tanda-tanda awal persalinan yang perlu diperhatikan adalah adanya mulas-mulas yang teratur dan semakin sering serta semakin lama, serta keluarnya lendir bercampur darah dari jalan lahir atau cairan ketuban dari jalan lahir. Jika salah satu dari tanda-tanda tersebut muncul, penting untuk segera membawa ibu hamil ke fasilitas kesehatan untuk mendapatkan perawatan yang dibutuhkan

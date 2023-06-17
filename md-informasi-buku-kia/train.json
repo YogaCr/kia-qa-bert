@@ -1,0 +1,493 @@
+[
+  {
+    "title": "Pemantauan Kesehatan Bayi Baru Lahir",
+    "paragraphs": [
+      {
+        "context": "Selama 0-28 hari setelah kelahiran, penting bagi ibu dan keluarga untuk memantau kesehatan bayi. Sejak bayi lahir sampai usia 28 hari, ibu dan keluarga mendeteksi keadaan bayinya. Apabila ditemukan 1 kriteria atau lebih tanda bayi tidak sehat, segera dibawa ke fasilitas kesehatan (Puskesmas, dokter praktik, dan Rumah Sakit). Napas bayi sehat adalah sekitar 40-60 kali per menit, sedangkan untuk yang tidak sehat adalah kurang 40 kali per menit atau lebih dari 60 kali per menit. Warna kulit bayi sehat adalah merah muda, sedangkan untuk bayi tidak sehat adalah pucat/biru pada tubuh. Tanda kejang pada bayi sehat adalah tidak ada, sedangkan bayi tidak sehat memiliki tanda kejang yaitu mata mendelik, tangan bergerak seperti menari, menangis melengking, tiba-tiba badan kaku, mulut mencucu. Aktivitas bayi sehat adalah menangis jika sedang haus dan buang air, sedangkan bayi tidak sehat adalah menangis terus, bayi lemas tidak bergerak. Bayi sehat mau minum ASI sedangkan bayi tidak sehat tidak mau minum atau memuntahkan semuanya, Bayi sehat dapat menghisap ASI dengan kuat, sedangkan bayi tidak sehat memiliki hisapan yang lemah. Tidak ada warna atau bercak kuning pada bayi sehat, apabila ada maka warna tersebut muncul antara 24-72 jam pertama dan hilang dalam 2 minggu serta bayi memiliki nilai Bilirubin kurang dari 15 mg/dl, sedangkan bayi tidak sehat memiliki bercak atau warna kuning yang muncul kurang dari 24 jam pertama atau menetap setelah 2 minggu dan memiliki nilai Bilirubin lebih dari 15 mg/dl. Warna air kencing pada bayi sehat adalah warna kuning jernih dan buang air kecil sebanyak 6 - 8 kali per hari, sedangkan bayi tidak sehat memiliki warna kencing kuning pekat dan buang air kecil kurang dari 6 kali per hari. Tinja bayi sehat pada saat buang air besar adalah encer berisi seperti biasanya, sedangkan bayi tidak sehat memiliki tinja sangat encer/ tidak bisa buang air besar lebih dari 3 hari (adanya perubahan konsistensi dan frekuensi buang air besar). Suhu tubuh bayi sehat adalah normal yaitu sekitar 36,5 - 37,5 derajat celsius, sedangkan suhu pada bayi tidak sehat adalah panas atau dingin pada seluruh tubuh. Bayi sehat memiliki tali pusat bersih, sedangkan bayi tidak Sehat terdapat warna merah di pinggir tali pusat atau tali pusat menjadi bernanah atau berbau. Mata pada bayi sehat adalah bening, sedangkan bayi tidak sehat memiliki mata merah menetap, bernanah, ada kotoran. Tidak ada bercak putih pada mulut bayi sehat, sedangkan bayi tidak sehat memiliki bercak putih pada mulut. Kulit bayi sehat adalah bersih, sedangkan pada bayi tidak sehat ada bintil, bernanah berair dan kemerahan.",
+        "qas": [
+          {
+            "question": "Apa tanda-tanda dan gejala bayi yang tidak sehat terkait pernapasan?",
+            "answers": [
+              {
+                "text": "Napas bayi sehat adalah sekitar 40-60 kali per menit, sedangkan untuk yang tidak sehat adalah kurang 40 kali per menit atau lebih dari 60 kali per menit."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mengetahui apakah bayi memiliki tanda kejang?",
+            "answers": [
+              {
+                "text": "bayi tidak sehat memiliki tanda kejang yaitu mata mendelik, tangan bergerak seperti menari, menangis melengking, tiba-tiba badan kaku, mulut mencucu."
+              }
+            ]
+          },
+          {
+            "question": "Apa perbedaan aktivitas bayi yang sehat dan bayi yang tidak sehat?",
+            "answers": [
+              {
+                "text": "Aktivitas bayi sehat adalah menangis jika sedang haus dan buang air, sedangkan bayi tidak sehat adalah menangis terus, bayi lemas tidak bergerak."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana perbedaan perilaku bayi sehat dan bayi tidak sehat terkait ASI?",
+            "answers": [
+              {
+                "text": "Bayi sehat mau minum ASI sedangkan bayi tidak sehat tidak mau minum atau memuntahkan semuanya, Bayi sehat dapat menghisap ASI dengan kuat, sedangkan bayi tidak sehat memiliki hisapan yang lemah."
+              }
+            ]
+          },
+          {
+            "question": "Apa yang dimaksud dengan bercak kuning pada bayi dan kapan hal itu menjadi tidak normal?",
+            "answers": [
+              {
+                "text": "Tidak ada warna atau bercak kuning pada bayi sehat, apabila ada maka warna tersebut muncul antara 24-72 jam pertama dan hilang dalam 2 minggu serta bayi memiliki nilai Bilirubin kurang dari 15 mg/dl, sedangkan bayi tidak sehat memiliki bercak atau warna kuning yang muncul kurang dari 24 jam pertama atau menetap setelah 2 minggu dan memiliki nilai Bilirubin lebih dari 15 mg/dl."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana membedakan warna air kencing bayi sehat dan bayi tidak sehat?",
+            "answers": [
+              {
+                "text": "Warna air kencing pada bayi sehat adalah warna kuning jernih dan buang air kecil sebanyak 6 - 8 kali per hari, sedangkan bayi tidak sehat memiliki warna kencing kuning pekat dan buang air kecil kurang dari 6 kali per hari."
+              }
+            ]
+          },
+          {
+            "question": "Apa perbedaan tinja bayi sehat dan bayi tidak sehat?",
+            "answers": [
+              {
+                "text": "Tinja bayi sehat pada saat buang air besar adalah encer berisi seperti biasanya, sedangkan bayi tidak sehat memiliki tinja sangat encer/ tidak bisa buang air besar lebih dari 3 hari (adanya perubahan konsistensi dan frekuensi buang air besar)."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mengetahui suhu tubuh bayi sehat dan bayi tidak sehat?",
+            "answers": [
+              {
+                "text": "Suhu tubuh bayi sehat adalah normal yaitu sekitar 36,5 - 37,5 derajat celsius, sedangkan suhu pada bayi tidak sehat adalah panas atau dingin pada seluruh tubuh."
+              }
+            ]
+          },
+          {
+            "question": "Apa tanda-tanda bayi tidak sehat terkait tali pusat?",
+            "answers": [
+              {
+                "text": "Bayi sehat memiliki tali pusat bersih, sedangkan bayi tidak Sehat terdapat warna merah di pinggir tali pusat atau tali pusat menjadi bernanah atau berbau."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana mengetahui keadaan mata bayi yang sehat dan tidak sehat?",
+            "answers": [
+              {
+                "text": "Mata pada bayi sehat adalah bening, sedangkan bayi tidak sehat memiliki mata merah menetap, bernanah, ada kotoran."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Anak dengan Disabilitas",
+    "paragraphs": [
+      {
+        "context": "Anak dengan disabilitas memiliki kerentanan terhadap masalah kesehatan karena mereka berisiko lebih tinggi mengalami kekerasan, baik dari keluarga maupun lingkungan sekitar. Hal ini disebabkan oleh hambatan dalam pemenuhan gizi, kesulitan dalam menjaga kebersihan pribadi, dan perilaku yang cenderung berisiko dan tidak sesuai dengan norma sosial. Orang tua dan anggota keluarga memiliki peran penting dalam membantu anak dengan disabilitas dalam menjalankan aktivitas sehari-hari. Mereka perlu memperkuat mental anak untuk menerima kondisi mereka, melindungi dan memberikan rasa aman dengan memberikan kasih sayang, semangat, dan motivasi yang optimal. Anak perlu diajarkan dengan kesabaran untuk menjadi mandiri dalam melakukan aktivitas sehari-hari. Penting pula untuk menyediakan makanan bergizi seimbang, melakukan pemeriksaan kesehatan secara teratur, serta memantau perkembangan dan pertumbuhan anak. Anak dengan disabilitas juga perlu mendapatkan kontrol teratur untuk terapi, pemantauan status gizi, kemajuan perkembangan, dan melengkapi status imunisasi di fasilitas kesehatan terdekat. Mereka rentan terhadap masalah kesehatan karena risiko kekerasan yang mereka hadapi dari orang tua atau lingkungan mereka, ketidakmampuan dalam pemenuhan gizi, kesulitan dalam menjaga kebersihan diri, serta perilaku yang berisiko dan tidak sesuai dengan norma sosial. Selain itu, untuk anak dengan gangguan kemampuan berbicara dan berbahasa, penting untuk memahami bahwa mereka akan mengalami kesulitan dalam mengekspresikan diri secara lisan, sehingga perlu dilatih dalam melafalkan huruf, vokal, konsonan, suku kata, kata, dan kalimat, serta dalam memperhatikan dan mendengar pembicaraan. Terdapat juga berbagai komunitas orang tua dan organisasi masyarakat yang dapat memberikan dukungan, seperti Forum Komunikasi Keluarga Anak dengan Kecacatan (FKKADK), Persatuan Orang Tua Anak dengan Down Syndrome (POTADS), Ikatan Sindrome Down Indonesia (ISDI), Komunitas Peduli Tuna Daksa (KOPETUNDA), Persatuan Tuna Netra Indonesia (PERTUNI), Himpunan Wanita Disabilitas Indonesia (HWDI), Gerakan untuk Kesejahteraan Tuna Rungu Indonesia (GERKATIN), Federasi Kesejahteraan Penyandang Cacat Tubuh Indonesia (FKPCTI), Yayasan Autis Indonesia (YAI), Yayasan Pembinaan Anak Cacat (YPAC), Yayasan Sayap Ibu, serta melibatkan diri dalam kegiatan Posyandu, PAUD, PKK, RBM, Polindes/Poskesdes, dan Puskesmas terdekat jika keluarga berada di daerah yang jauh dari komunitas tersebut.",
+        "qas": [
+          {
+            "question": "Mengapa anak dengan disabilitas rentan terhadap masalah kesehatan?",
+            "answers": [
+              {
+                "text": "Anak dengan disabilitas memiliki kerentanan terhadap masalah kesehatan karena mereka berisiko lebih tinggi mengalami kekerasan, baik dari keluarga maupun lingkungan sekitar."
+              }
+            ]
+          },
+          {
+            "question": "Apa peran orang tua dan anggota keluarga dalam membantu anak dengan disabilitas?",
+            "answers": [
+              {
+                "text": "Orang tua dan anggota keluarga memiliki peran penting dalam membantu anak dengan disabilitas dalam menjalankan aktivitas sehari-hari. Mereka perlu memperkuat mental anak untuk menerima kondisi mereka, melindungi dan memberikan rasa aman dengan memberikan kasih sayang, semangat, dan motivasi yang optimal."
+              }
+            ]
+          },
+          {
+            "question": "Apa yang perlu dilakukan untuk memastikan kesehatan anak dengan disabilitas?",
+            "answers": [
+              {
+                "text": "Penting pula untuk menyediakan makanan bergizi seimbang, melakukan pemeriksaan kesehatan secara teratur, serta memantau perkembangan dan pertumbuhan anak. Anak dengan disabilitas juga perlu mendapatkan kontrol teratur untuk terapi, pemantauan status gizi, kemajuan perkembangan, dan melengkapi status imunisasi di fasilitas kesehatan terdekat."
+              }
+            ]
+          },
+          {
+            "question": "Apa saja kesulitan yang dihadapi anak dengan gangguan kemampuan berbicara dan berbahasa?",
+            "answers": [
+              {
+                "text": "Untuk anak dengan gangguan kemampuan berbicara dan berbahasa, penting untuk memahami bahwa mereka akan mengalami kesulitan dalam mengekspresikan diri secara lisan, sehingga perlu dilatih dalam melafalkan huruf, vokal, konsonan, suku kata, kata, dan kalimat, serta dalam memperhatikan dan mendengar pembicaraan."
+              }
+            ]
+          },
+          {
+            "question": "Apakah ada komunitas dan organisasi yang dapat memberikan dukungan bagi anak dengan disabilitas?",
+            "answers": [
+              {
+                "text": "Terdapat juga berbagai komunitas orang tua dan organisasi masyarakat yang dapat memberikan dukungan, seperti Forum Komunikasi Keluarga Anak dengan Kecacatan (FKKADK), Persatuan Orang Tua Anak dengan Down Syndrome (POTADS), Ikatan Sindrome Down Indonesia (ISDI), Komunitas Peduli Tuna Daksa (KOPETUNDA), Persatuan Tuna Netra Indonesia (PERTUNI), Himpunan Wanita Disabilitas Indonesia (HWDI), Gerakan untuk Kesejahteraan Tuna Rungu Indonesia (GERKATIN), Federasi Kesejahteraan Penyandang Cacat Tubuh Indonesia (FKPCTI), Yayasan Autis Indonesia (YAI), Yayasan Pembinaan Anak Cacat (YPAC), Yayasan Sayap Ibu, serta melibatkan diri dalam kegiatan Posyandu, PAUD, PKK, RBM, Polindes/Poskesdes, dan Puskesmas terdekat jika keluarga berada di daerah yang jauh dari komunitas tersebut."
+              }
+            ]
+          },
+          {
+            "question": "Apakah anak dengan disabilitas dapat menjadi mandiri dalam melakukan aktivitas sehari-hari?",
+            "answers": [
+              {
+                "text": "Anak perlu diajarkan dengan kesabaran untuk menjadi mandiri dalam melakukan aktivitas sehari-hari."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kelas Ibu Balita",
+    "paragraphs": [
+      {
+        "context": "Kelas ibu balita memberikan manfaat yang penting bagi ibu, ayah, dan keluarga. Mereka dapat memperoleh informasi penting mengenai pola asuh sesuai tahapan usia anak, tumbuh kembang, imunisasi, gizi, perawatan bayi, anak balita, serta penyakit yang sering ditemukan. Selain itu, kelas ini juga memberikan kesempatan untuk berdiskusi, tukar pendapat, dan berbagi pengalaman dengan teman sekelas dalam hal pemenuhan pelayanan kesehatan, gizi, dan stimulasi pertumbuhan dan perkembangan. Untuk mengetahui lebih lanjut mengenai lokasi dan jadwal kelas, dapat ditanyakan kepada petugas kesehatan yang bersangkutan. Dalam kelas ibu balita terdapat kelompok bayi usia 0-1 tahun, kelompok anak usia 1-2 tahun, dan kelompok anak usia 2-5 tahun. Kelompok bayi usia 0-1 tahun dengan modul mengenai pemberian ASI, imunisasi, MP-ASI, tumbuh kembang, dan penyakit pada bayi. Selain itu, ada juga kelompok anak usia 1-2 tahun dengan modul merawat gigi anak, MP-ASI, tumbuh kembang anak, penyakit pada anak, permainan anak, dan stimulasi pijat. Kelompok anak usia 2-5 tahun memiliki modul tumbuh kembang anak, pencegahan kecelakaan, gizi seimbang, penyakit pada anak, obat pertolongan pertama, dan perilaku hidup bersih dan sehat.",
+        "qas": [
+          {
+            "question": "Apa manfaat yang diperoleh oleh ibu, ayah, dan keluarga dari kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Kelas ibu balita memberikan manfaat yang penting bagi ibu, ayah, dan keluarga. Mereka dapat memperoleh informasi penting mengenai pola asuh sesuai tahapan usia anak, tumbuh kembang, imunisasi, gizi, perawatan bayi, anak balita, serta penyakit yang sering ditemukan."
+              }
+            ]
+          },
+          {
+            "question": "Apa topik pembahasan yang ada dalam kelompok bayi usia 0-1 tahun di kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Kelompok bayi usia 0-1 tahun dengan modul mengenai pemberian ASI, imunisasi, MP-ASI, tumbuh kembang, dan penyakit pada bayi."
+              }
+            ]
+          },
+          {
+            "question": "Apa topik pembahasan yang ada dalam kelompok anak usia 1-2 tahun di kelas ibu balita?",
+            "answers": [
+              {
+                "text": "kelompok anak usia 1-2 tahun dengan modul merawat gigi anak, MP-ASI, tumbuh kembang anak, penyakit pada anak, permainan anak, dan stimulasi pijat."
+              }
+            ]
+          },
+          {
+            "question": "Apa topik pembahasan yang ada dalam kelompok anak usia 2-5 tahun di kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Kelompok anak usia 2-5 tahun memiliki modul tumbuh kembang anak, pencegahan kecelakaan, gizi seimbang, penyakit pada anak, obat pertolongan pertama, dan perilaku hidup bersih dan sehat."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara untuk mengetahui lokasi dan jadwal kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Untuk mengetahui lebih lanjut mengenai lokasi dan jadwal kelas, dapat ditanyakan kepada petugas kesehatan yang bersangkutan."
+              }
+            ]
+          },
+          {
+            "question": "Apakah kelas ibu balita menyediakan kesempatan untuk berdiskusi dan berbagi pengalaman?",
+            "answers": [
+              {
+                "text": "kelas ini juga memberikan kesempatan untuk berdiskusi, tukar pendapat, dan berbagi pengalaman dengan teman sekelas dalam hal pemenuhan pelayanan kesehatan, gizi, dan stimulasi pertumbuhan dan perkembangan."
+              }
+            ]
+          },
+          {
+            "question": "Apa saja kelompok usia yang ada dalam kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Dalam kelas ibu balita terdapat kelompok bayi usia 0-1 tahun, kelompok anak usia 1-2 tahun, dan kelompok anak usia 2-5 tahun."
+              }
+            ]
+          },
+          {
+            "question": "Apa saja modul yang diajarkan dalam kelompok bayi usia 0-1 tahun di kelas ibu balita?",
+            "answers": [
+              {
+                "text": "Kelompok bayi usia 0-1 tahun dengan modul mengenai pemberian ASI, imunisasi, MP-ASI, tumbuh kembang, dan penyakit pada bayi."
+              }
+            ]
+          },
+          {
+            "question": "Apa saja modul yang diajarkan dalam kelompok anak usia 1-2 tahun di kelas ibu balita?",
+            "answers": [
+              {
+                "text": "kelompok anak usia 1-2 tahun dengan modul merawat gigi anak, MP-ASI, tumbuh kembang anak, penyakit pada anak, permainan anak, dan stimulasi pijat."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kesehatan Lingkungan Sekitar Anak",
+    "paragraphs": [
+      {
+        "context": "Untuk menjaga kesehatan lingkungan sekitar anak, penting untuk menghindarkan mereka dari paparan asap rokok, asap dapur, polusi kendaraan bermotor, dan limbah hewan peliharaan; tanam tanaman di halaman rumah untuk meningkatkan kualitas udara dan lingkungan; kurangi penggunaan bahan kimia yang mencemari tanah; pastikan ada air bersih dan jamban yang sehat, serta ajarkan anak untuk buang air besar di tempat yang tepat; perlakukan popok sekali pakai dengan menjaga kebersihan, dan hindari buang popok bekas ke tempat yang tidak semestinya; lindungi anak dari gigitan nyamuk dengan kelambu berinsektisida, bersihkan bak penampungan air, dan jaga kebersihan rumah serta lingkungan sekitar saat anak bermain; terakhir, pastikan tidak ada anggota keluarga yang sakit TB untuk mencegah penularan penyakit tersebut kepada anak.",
+        "qas": [
+          {
+            "question": "Apa yang harus dilakukan untuk menjaga anak dari paparan asap rokok?",
+            "answers": [
+              {
+                "text": "penting untuk menghindarkan mereka dari paparan asap rokok"
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara menjaga kualitas udara dan lingkungan dengan menanam tanaman di halaman rumah?",
+            "answers": [
+              {
+                "text": "tanam tanaman di halaman rumah untuk meningkatkan kualitas udara dan lingkungan"
+              }
+            ]
+          },
+          {
+            "question": "Apa yang perlu dilakukan untuk menghindari pencemaran tanah akibat penggunaan bahan kimia?",
+            "answers": [
+              {
+                "text": "kurangi penggunaan bahan kimia yang mencemari tanah"
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara memastikan kebersihan dan kesehatan air yang digunakan?",
+            "answers": [
+              {
+                "text": "pastikan ada air bersih dan jamban yang sehat, serta ajarkan anak untuk buang air besar di tempat yang tepat"
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mengelola dan membuang popok sekali pakai dengan benar?",
+            "answers": [
+              {
+                "text": "perlakukan popok sekali pakai dengan menjaga kebersihan, dan hindari buang popok bekas ke tempat yang tidak semestinya"
+              }
+            ]
+          },
+          {
+            "question": "Apa yang dapat dilakukan untuk melindungi anak dari gigitan nyamuk?",
+            "answers": [
+              {
+                "text": "lindungi anak dari gigitan nyamuk dengan kelambu berinsektisida, bersihkan bak penampungan air, dan jaga kebersihan rumah serta lingkungan sekitar saat anak bermain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Keselamatan Lingkungan Anak",
+    "paragraphs": [
+      {
+        "context": "Agar anak terhindar dari risiko jatuh, pastikan televisi, meja, lemari, dan rak yang tidak cukup kuat untuk dipanjat oleh bayi diikat atau ditempel di dinding. Sediakan bantalan pada sudut mebel yang tajam. Hindari penggunaan baby walker karena dapat menghambat langkah anak dan meningkatkan risiko jatuh. Pastikan jendela berada minimal 1 meter dari lantai agar bayi tidak dapat memanjatinya. Selalu periksa gerbang pagar rumah agar bayi tidak dapat memanjatinya. Jangan pernah meninggalkan bayi sendirian di tempat-tempat yang tinggi. Pasang pagar dan jarak antara pagar di tangga dan balkon tidak lebih dari 9 cm untuk mencegah bayi melewatinya. Gunakan pengaman di sekitar tempat tidur anak untuk mencegah jatuh dari tempat tidur. Selain itu, hindari anak dari luka bakar dan bahaya listrik dengan menjauhkannya dari kabel listrik dan panci panas. Pasang soket listrik di tempat yang tidak dapat dijangkau oleh anak-anak atau gunakan penutup soket. Jangan memegang benda-benda yang panas saat memegang atau memangku bayi. Untuk mencegah bayi mengalami kekurangan napas, hindari memberikan makanan yang keras dan sulit dikunyah. Jangan biarkan anak bermain dengan benda-benda yang berisiko membuatnya terjerat atau tercekik, seperti tali panjang, kantong plastik, atau mainan kecil. Hindari menidurkan bayi dalam posisi telungkup tanpa pengawasan. Selanjutnya, hindarkan anak dari bahaya tenggelam dengan tidak membiarkannya sendirian di bak mandi atau ember. Pasang pembatas yang aman agar anak tidak dapat dengan bebas mengakses sumber air. Jangan biarkan anak bermain di tepi kolam renang tanpa pengawasan. Ajari anak usia 1 tahun 6 bulan tentang bahaya air. Anak usia 2 tahun harus diajari cara melayang saat jatuh di air dan berenang jarak pendek. Anak usia 6 tahun harus memiliki keterampilan berenang dan bertahan di air.",
+        "qas": [
+          {
+            "question": "Apa yang harus dilakukan agar anak terhindar dari risiko jatuh di dalam rumah?",
+            "answers": [
+              {
+                "text": "Agar anak terhindar dari risiko jatuh, pastikan televisi, meja, lemari, dan rak yang tidak cukup kuat untuk dipanjat oleh bayi diikat atau ditempel di dinding. Sediakan bantalan pada sudut mebel yang tajam. Hindari penggunaan baby walker karena dapat menghambat langkah anak dan meningkatkan risiko jatuh. Pastikan jendela berada minimal 1 meter dari lantai agar bayi tidak dapat memanjatinya. Selalu periksa gerbang pagar rumah agar bayi tidak dapat memanjatinya. Jangan pernah meninggalkan bayi sendirian di tempat-tempat yang tinggi. Pasang pagar dan jarak antara pagar di tangga dan balkon tidak lebih dari 9 cm untuk mencegah bayi melewatinya. Gunakan pengaman di sekitar tempat tidur anak untuk mencegah jatuh dari tempat tidur."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mencegah bayi memanjat jendela?",
+            "answers": [
+              {
+                "text": "Pastikan jendela berada minimal 1 meter dari lantai agar bayi tidak dapat memanjatinya."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mencegah bayi jatuh dari tempat tidur?",
+            "answers": [
+              {
+                "text": "Gunakan pengaman di sekitar tempat tidur anak untuk mencegah jatuh dari tempat tidur."
+              }
+            ]
+          },
+          {
+            "question": "Apa yang perlu dilakukan untuk mencegah luka bakar dan bahaya listrik?",
+            "answers": [
+              {
+                "text": "hindari anak dari luka bakar dan bahaya listrik dengan menjauhkannya dari kabel listrik dan panci panas. Pasang soket listrik di tempat yang tidak dapat dijangkau oleh anak-anak atau gunakan penutup soket. Jangan memegang benda-benda yang panas saat memegang atau memangku bayi."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mencegah bayi mengalami kekurangan napas?",
+            "answers": [
+              {
+                "text": "Untuk mencegah bayi mengalami kekurangan napas, hindari memberikan makanan yang keras dan sulit dikunyah. Jangan biarkan anak bermain dengan benda-benda yang berisiko membuatnya terjerat atau tercekik, seperti tali panjang, kantong plastik, atau mainan kecil. Hindari menidurkan bayi dalam posisi telungkup tanpa pengawasan."
+              }
+            ]
+          },
+          {
+            "question": "Apa yang perlu dilakukan untuk mencegah anak terjerat atau tercekik?",
+            "answers": [
+              {
+                "text": "Jangan biarkan anak bermain dengan benda-benda yang berisiko membuatnya terjerat atau tercekik, seperti tali panjang, kantong plastik, atau mainan kecil."
+              }
+            ]
+          },
+          {
+            "question": "Bagaimana cara mencegah anak dari bahaya tenggelam?",
+            "answers": [
+              {
+                "text": "hindarkan anak dari bahaya tenggelam dengan tidak membiarkannya sendirian di bak mandi atau ember. Pasang pembatas yang aman agar anak tidak dapat dengan bebas mengakses sumber air. Jangan biarkan anak bermain di tepi kolam renang tanpa pengawasan. Ajari anak usia 1 tahun 6 bulan tentang bahaya air. Anak usia 2 tahun harus diajari cara melayang saat jatuh di air dan berenang jarak pendek. Anak usia 6 tahun harus memiliki keterampilan berenang dan bertahan di air."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kesiapsiagaan Bencana",
+    "paragraphs": [
+      {
+        "context": "Indonesia merupakan negara yang terletak di wilayah yang rawan bencana, bencana alam yang sering terjadi di Indonesia antara lain gempa bumi, erupsi gunung berapi, kebakaran hutan/lahan longsor, banjir, tsunami, di samping bencana non alam seperti pandemi virus atau situasi konflik. Kelompok yang paling rentan terdampak bencana diantaranya adalah ibu hamil, ibu nifas, bayi dan balita. Kondisi pengungsian yang padat dan tidak memadai, dengan hygiene dan sanitasi yang buruk, berisiko tinggi menimbulkan berbagai penyakit, termasuk risiko terinfeksi penyakit menular dan peningkatan kasus gizi kurang. Disamping itu juga berisiko terhadap pelecehan, kekerasan, dan trauma. Selain risiko kesakitan, kecacatan dan kematian, anak dan balita juga memiliki risiko terpisah dari orang tua. Reaksi bayi dan anak berumur 1-2 tahun sangat dipengaruhi oleh suasana kejiwaan orangtuanya dalam menghadapi bencana. Bila orangtua panik dan cemas, maka anak- anak tersebut akan gelisah, rewel dan mudah terkena penyakit. Anak usia prasekolah mudah merasa tidak berdaya dan terus mengingat trauma psikis yang dialami akibat bencana. Hal ini mengakibatkan gangguan tidur dan anak lebih banyak berdiam diri. Bimbingan untuk bermain dapat mengurangi masalah tersebut. Dalam keadaan normal, ibu hamil, ibu pasca melahirkan, bayi, dan balita, terutama yang tinggal di daerah rawan bencana, perlu mempersiapkan diri menghadapi bencana. Persiapan ini meliputi membuat rencana darurat keluarga, mengenali ancaman yang mungkin terjadi, menyimpan nomor kontak penting (keluarga dan fasilitas kesehatan), mengetahui cara mematikan air, gas, dan listrik, menentukan tempat berkumpul dan tempat aman di dalam rumah atau bangunan, mengetahui jalur evakuasi, mengidentifikasi anggota keluarga yang rentan (seperti bayi, balita, ibu hamil, ibu pasca melahirkan, orang tua, dan penyandang disabilitas), mengikuti informasi dari radio/televisi/media online/informasi resmi dari BPBD dan BNPB, serta menyiapkan perlengkapan bencana berisi tanda pengenal (tanda pengenal anak yang dapat dikalungkan berisi informasi nama balita, nama orang tua, nomor telepon orang tua, serta alamat), benda khusus bayi dan balita (pakaian, selimut, popok, topi, kaos kaki, dan mainan), pembersih higienis (tisu basah dan kering, hand sanitizer, perlengkapan mandi), benda khusus ibu hamil/bersalin/nifas (kain panjang, pakaian dalam).",
+        "qas": [
+            {
+              "question": "Apa saja jenis bencana alam yang sering terjadi di Indonesia?",
+              "answers": [
+                {
+                  "text": "bencana alam yang sering terjadi di Indonesia antara lain gempa bumi, erupsi gunung berapi, kebakaran hutan/lahan longsor, banjir, tsunami, di samping bencana non alam seperti pandemi virus atau situasi konflik."
+                }
+              ]
+            },
+            {
+              "question": "Siapa kelompok yang paling rentan terdampak bencana?",
+              "answers": [
+                {
+                  "text": "Kelompok yang paling rentan terdampak bencana diantaranya adalah ibu hamil, ibu nifas, bayi dan balita."
+                }
+              ]
+            },
+            {
+              "question": "Apa risiko yang dihadapi oleh kelompok rentan saat terjadi bencana?",
+              "answers": [
+                {
+                  "text": "risiko terinfeksi penyakit menular dan peningkatan kasus gizi kurang"
+                }
+              ]
+            },
+            {
+              "question": "Selain risiko fisik, apa risiko yang dialami oleh anak dan balita saat terjadi bencana?",
+              "answers": [
+                {
+                  "text": "anak dan balita juga memiliki risiko terpisah dari orang tua."
+                }
+              ]
+            },
+            {
+              "question": "Bagaimana suasana kejiwaan orangtua dapat mempengaruhi reaksi bayi dan anak saat terjadi bencana?",
+              "answers": [
+                {
+                  "text": "Bila orangtua panik dan cemas, maka anak- anak tersebut akan gelisah, rewel dan mudah terkena penyakit."
+                }
+              ]
+            },
+            {
+              "question": "Apa yang dapat dilakukan untuk mengurangi masalah pada anak usia prasekolah saat terjadi bencana?",
+              "answers": [
+                {
+                  "text": "Anak usia prasekolah mudah merasa tidak berdaya dan terus mengingat trauma psikis yang dialami akibat bencana. Hal ini mengakibatkan gangguan tidur dan anak lebih banyak berdiam diri. Bimbingan untuk bermain dapat mengurangi masalah tersebut."
+                }
+              ]
+            },
+            {
+              "question": "Apa saja yang termasuk dalam perlengkapan bencana untuk bayi dan balita?",
+              "answers": [
+                {
+                  "text": "menyiapkan perlengkapan bencana berisi tanda pengenal (tanda pengenal anak yang dapat dikalungkan berisi informasi nama balita, nama orang tua, nomor telepon orang tua, serta alamat), benda khusus bayi dan balita (pakaian, selimut, popok, topi, kaos kaki, dan mainan), pembersih higienis (tisu basah dan kering, hand sanitizer, perlengkapan mandi), benda khusus ibu hamil/bersalin/nifas (kain panjang, pakaian dalam)."
+                }
+              ]
+            },
+            {
+              "question": "Apa saja yang termasuk dalam perlengkapan bencana untuk ibu hamil/bersalin/nifas?",
+              "answers": [
+                {
+                  "text": "Kain panjang, pakaian dalam"
+                }
+              ]
+            }
+          ]          
+      }
+    ]
+  },
+  {
+    "title": "Kondisi Balita Sehat",
+    "paragraphs": [
+      {
+        "context": "Balita yang sehat dapat dikenali melalui beberapa tanda, seperti berat badan yang naik sesuai dengan garis pertumbuhan dan mengikuti pita hijau di Kartu Menuju Sehat (KMS), bertambah tinggi, kemampuan gerak, bicara, dan sosialisasi yang sesuai dengan usia, serta jarang sakit. Mereka juga terlihat ceria, aktif, dan lincah. Penting untuk mengunjungi Pelayanan Kesehatan Bayi dan Anak Balita untuk memantau pertumbuhan (menimbang berat badan, mengukur panjang/tinggi badan, dan lingkar kepala), memantau perkembangan, memberikan imunisasi dasar dan lanjutan, memberikan kapsul vitamin A untuk anak usia 6 bulan ke atas, serta memberikan obat cacing untuk anak usia 1 tahun ke atas. Namun, jika ditemukan satu atau lebih tanda bahaya seperti tidak bisa minum, diare, demam/panas tinggi, muntah-muntah, tampak biru (sianosis), pembengkakan yang nyeri di belakang telinga, pendarahan di hidung/kulit/BAB, sesak napas, kejang, segera bawa balita ke rumah sakit. Pemeriksaan lebih lanjut dan penanganan medis segera diperlukan dalam kondisi-kondisi tersebut untuk memastikan keselamatan dan kesehatan balita.",
+        "qas": []
+      }
+    ]
+  },
+  {
+    "title": "Kondisi Bayi Baru Lahir",
+    "paragraphs": [
+      {
+        "context": "Kondisi bayi baru lahir (neonatus) perlu diperhatikan dengan melakukan langkah-langkah pencegahan seperti mencuci tangan sebelum dan setelah merawat bayi, memberikan ASI eksklusif hingga usia 6 bulan, serta menjaga pola tidur dengan tidur terlentang, menggunakan alas yang rata, menghindari benda yang dapat menutupi kepala, dan menggunakan kelambu. Selain itu, pola BAB bayi perlu diawasi dengan perubahan warna dari hitam pekat menjadi kekuningan setelah hari kelima, serta pola BAK normal sekitar 5-6 kali per hari. Kenaikan berat badan bayi mungkin mengalami penurunan sementara dalam minggu pertama, namun seharusnya mencapai berat lahirnya pada usia 7-10 hari dengan penurunan berat badan maksimal 10% untuk bayi cukup bulan dan 15% untuk bayi kurang bulan. Penting bagi bayi baru lahir untuk mendapatkan pemeriksaan dan pelayanan dari dokter, bidan, atau perawat pada rentang waktu yang ditentukan, yaitu 0-6 jam setelah lahir, 6-48 jam setelah lahir (KN 1), hari 3-7 setelah lahir (KN 2), dan hari 8-28 setelah lahir (KN 3), guna menjaga kesehatan dan keadaan optimal bayi.",
+        "qas": []
+      }
+    ]
+  },
+  {
+    "title": "Makanan Pengganti ASI",
+    "paragraphs": [
+      {
+        "context": "Anda dapat membuat makanan pengganti ASI untuk bayi. Anda dapat membuatnya dari makanan keluarga maupun bahan mentah. Untuk bayi usia 6-8 bulan anda dapat menggunakan bahan-bahan seperti nasi putih 30 gr, dadar telur 35 gr, sayur kare wortel tempe 20 gr. Cara membuatnya adalah nasi, telur dadar, tempe dan wortel (dari sayur kare) dilumatkan kemudian disaring, lalu ditambahkan kuah sayur (santan kare) sampai mendapatkan konsistensi bubur kental dan sajikan sebagai makanan untuk bayi anda. Untuk bayi 9-11 bulan, anda dapat menggunakan bahan matang seperti nasi putih 45 gr,  ikan kembung bumbu kuning 30 gr, tumis buncis 25 gr. Cara membuatnya adalah nasi, ikan kembung bumbu kuning dan tumis buncis dicincang, lalu sajikan dengan kuah sayur seperti santan kare. Untuk anak usia 12-23 bulan anda dapat menggunakan bahan seperti nasi putih 55 gr, semur hati ayam 45 gr, bening/ bobor bayam 20 gr. MP ASI untuk anak 12-23 bulan disajikan dalam bentuk makanan keluarga (dicincang agak besar jika diperlukan).  Anda juga dapat membuat makanan selingan seperti perkedel kentang isi daging dengan bahan seperti kentang 25 gr, daging giling 25 gr, minyak 5 gr, telur ayam 5 gr. Anda juga dapat membuat makanan pengganti dari bahan mentah. Untuk bayi usia 6-8 bulan, anda dapat menggunakan bahan seperti, beras putih 10 gr, telur ayam 30 gr, tempe kedelai 10 gr, wortel 10 gr, santan 30 gr. Cara memasak: nya adalah pada saat memasak beras, tambahkan santan dan bumbu yang telah ditumis dengan sedikit minyak (bawang merah, daun salam, kunyit); setelah nasi masak, masukan telur yang telah dikocok lepas, tempe dan wortel yang telah dicincang; aduk-aduk sampai mendapatkan konsistensi bubur kental; sajikan kepada bayi anda. Untuk bayi usia 9-11 bulan, anda dapat menggunakan bahan seperti beras putih 15 gr, ikan kembung 30 gr, minyak kelapa 10 gr, wortel 15 gr, tempe 10 gr. cara memasaknya adalah pada saat memasak beras, tambahkan bumbu yg telah ditumis (bawang merah, daun salam, kunyit) dengan minyak kelapa; setelah nasi masak, masukkan ikan kembung dan buncis yang telah dicincang; aduk-aduk sampai mendapatkan konsistensi bubur kasar atau cincang; sajikan kepada bayi anda. Untuk anak usia 12-23 bulan, gunakan bahan seperti beras putih 25 gr, hati ayam 50 gr, minyak kelapa 5 gr, bayam 20 gr, santan 50 gr. Cara memasaknya adalah masak beras sampai menjadi nasi; lalu masak hati ayam goreng (goreng/tumis hati ayam dengan minyak kelapa); masak sayur bayam; sajikan kepada anak anda. ",
+        "qas": []
+      }
+    ]
+  },
+  {
+    "title":"Pemberian Makanan Pengganti Yang Baik",
+    "paragraphs":[
+        {
+            "context":"Pemberian Makanan Pengganti (MP) ASI yang baik harus memenuhi beberapa syarat. Pertama, MP ASI harus diberikan tepat waktu, yaitu saat ASI saja sudah tidak cukup untuk memenuhi kebutuhan gizi bayi, dan mulai diberikan sejak usia 6 bulan. Kedua, MP ASI harus adekuat, dengan memperhatikan jumlah, frekuensi, konsistensi, dan variasi makanan. Variasi makanan dalam MP ASI meliputi makanan pokok, sumber protein hewani dan nabati, serta buah dan sayur. Ketiga, MP ASI harus aman, dengan menjaga kebersihan makanan dan peralatan serta mencuci tangan sebelum menyiapkan dan memberikan makanan kepada anak. Keempat, MP ASI harus diberikan dengan cara yang benar, yaitu secara teratur, dalam waktu maksimal 30 menit, di lingkungan yang netral, dan dengan mengajari anak makan sendiri menggunakan sendok dan minum dengan gelas. Selain itu, berikut adalah cara penyajian makanan pengganti sesuai dengan usia bayi. Pada usia 6-8 bulan, bayi perlu disusui dan diberikan MP ASI sebanyak 2-3 sendok makan hingga setengah mangkuk dalam 2-3 kali makan, serta 1-2 kali selingan. Jumlah energi yang dibutuhkan adalah 200 kkal per hari, dan makanan disaring dengan tekstur lumat dan kental. Kebutuhan cairan sekitar 800 ml per hari. Pada usia 9-11 bulan, penyusuan masih dilanjutkan, dengan pemberian MP ASI sebanyak setengah hingga tiga perempat mangkuk dalam 3-4 kali makan, serta 1-2 kali selingan. Jumlah energi yang dibutuhkan adalah 300 kkal per hari, dan makanan memiliki tekstur yang dicincang atau dicacah. Pada usia 12-23 bulan, penyusuan tetap dilanjutkan hingga 2 tahun atau lebih, dengan pemberian MP ASI sebanyak tiga perempat hingga satu mangkuk dalam 3-4 kali makan, serta 1-2 kali selingan. Jumlah energi yang dibutuhkan adalah 550 kkal per hari, dan makanan memiliki tekstur yang diiris-iris. Kebutuhan cairan pada usia ini adalah sekitar 1.300 ml per hari.",
+            "qas":[]
+        }
+    ]
+  },
+  {
+    "title":"Pemenuhan Gizi Anak 2-5 Tahun",
+    "paragraphs":[
+        {
+            "context":"Pemenuhan gizi dan perawatan anak usia 2-5 tahun sangat penting untuk pertumbuhan dan perkembangan yang optimal. Penuhi gizi anak dengan makanan keluarga yang bervariasi, termasuk makanan pokok (nasi, roti, pasta), lauk-pauk (ikan, telur, daging, tempe, tahu), minyak, sayur, dan buah. Pastikan makanan yang dikonsumsi mencakup karbohidrat, protein, lemak, serta vitamin dan mineral yang diperlukan. Biasakan anak makan 3 kali sehari (pagi, siang, dan malam) bersama keluarga. Makan bersama keluarga dapat menjadi momen yang menyenangkan dan memperkuat hubungan keluarga. Penuhi kebutuhan gizi anak dengan makanan kaya protein seperti ikan, telur, tempe, susu, dan tahu. Protein penting untuk pertumbuhan dan perkembangan otot anak. Sertakan sayuran dan buah-buahan dalam pola makan anak. Sayuran dan buah-buahan mengandung serat, vitamin, dan mineral yang penting untuk menjaga kesehatan dan kekebalan tubuh. Batasi konsumsi anak terhadap makanan selingan yang terlalu manis, asin, dan berlemak. Makanan seperti permen, cokelat, keripik, dan makanan cepat saji sebaiknya dikonsumsi dengan kadar yang terkontrol. Pastikan anak minum air putih sesuai dengan kebutuhan. Berikan air putih yang cukup kepada anak setiap hari untuk menjaga hidrasi tubuhnya. Biasakan bermain bersama anak dan melibatkan mereka dalam aktivitas fisik setiap hari. Aktivitas fisik seperti bermain di luar rumah, bersepeda, atau bermain di taman dapat membantu perkembangan motorik dan kebugaran anak. Kebutuhan cairan anak tergantung pada usia. Untuk anak usia 2-3 tahun, kebutuhan cairan sekitar 1.300 mL atau sekitar 5 gelas belimbing per hari. Untuk anak di atas 3 tahun, kebutuhan cairan meningkat menjadi sekitar 1.700 mL atau sekitar 7 gelas belimbing per hari. Selain itu, penting juga untuk membiasakan anak mencuci tangan dengan air bersih dan sabun setelah bermain. Gunting kuku tangan dan kaki secara teratur dan jaga kebersihannya. Dalam perawatan gigi anak, mulailah mengajari anak untuk menyikat gigi di depan cermin secara teratur selama 2 menit. Gunakan pasta gigi dengan ukuran seukuran 1 biji kacang polong untuk anak usia 2-6 tahun. Hindari kebiasaan minum susu dengan botol sambil tiduran, menghisap ibu jari atau dot (mengempeng), dan makan makanan manis yang bersifat lengket di antara waktu makan. Biasakan anak menyikat gigi secara teratur sebelum tidur dan hindari anak mengemut makanan.",
+            "qas":[]
+        }
+    ]
+  },
+  {
+    "title":"Pengukuran LiLA",
+    "paragraphs":[
+        {
+            "context":"Pengukuran Lingkar Lengan Atas (LiLA) dilakukan pada anak usia 6-59 bulan sebagai skrining, deteksi dini, dan rujukan masalah pertumbuhan. Pengukuran ini dapat dilakukan di Posyandu atau fasilitas kesehatan terdekat. LiLA diukur di lengan kiri atau lengan yang tidak terlalu aktif. Orang tua atau pengasuh terlatih dapat melakukan pengukuran di rumah menggunakan pita LiLA, atau tenaga kesehatan terlatih dapat melakukannya secara rutin di posyandu. Hasil pengukuran LiLA dikategorikan berdasarkan ukuran: di bawah 11,5 cm menunjukkan gizi buruk, antara 11,5 hingga 12,4 cm menunjukkan gizi kurang, dan lebih dari 12,4 cm menunjukkan gizi anak normal. Langkah-langkah pengukuran LiLA meliputi membuka baju balita, melingkarkan pita di lengan kiri atas dengan posisi yang tepat, menarik pita dengan ketegangan yang cukup, dan memperhatikan warna hasil pengukuran untuk menentukan kondisi gizi balita. Jika terdapat masalah dalam pengukuran, sebaiknya menghubungi tenaga kesehatan atau kader terdekat. Penting juga untuk menjaga kebersihan dengan mencuci tangan sebelum melakukan pengukuran dan menyimpan pita LiLA di tempat yang aman.",
+            "qas":[]
+        }
+    ]
+  },
+  {
+    "title":"Perawatan Anak 2-3 Tahun",
+    "paragraphs":[
+        {
+            "context":"Untuk merawat anak usia 2-3 tahun, penting untuk selalu mencuci tangan dengan sabun dan air mengalir sebelum merawat anak. Pastikan anak mendapatkan gizi yang cukup dengan memberikan makanan keluarga yang bervariasi. Selain itu, lakukan stimulasi sesuai usia anak dalam suasana menyenangkan, seperti menyebutkan nama benda, sifat, guna benda, bacakan cerita dan lakukan tanya jawab, anak diminta bercerita pengalaman menonton TV didampingi maksimal 1 jam, menyanyi, cuci tangan, cebok, berpakaian, rapikan mainan, makan dengan sendok garpu, menyusun balok, memasang puzzle, menggambar, menempel, mengelompokkan benda sejenis, mencocokkan gambar dan benda, menghitung, melempar, menangkap, berlari, melompat, memanjat, merayap. Jika pada usia 3 tahun anak belum mencapai beberapa kemampuan tertentu, seperti bisa jalan naik tangga sendiri, bisa bermain dan menendang bola kecil, bisa mencoret-coret pensil pada kertas, bisa bicara dengan baik, menggunakan 2 kata, bisa menunjuk 1 atau lebih bagian tubuhnya ketika diminta, bisa melihat gambar dan dapat menyebut dengan benar nama 2 benda atau lebih, bisa membantu memungut mainannya sendiri atau membantu mengangkat piring jika diminta, bisa makan nasi sendiri tanpa banyak tumpah, bisa melepas pakaiannya sendiri, disarankan untuk membawa anak ke fasilitas kesehatan. Lanjutkan juga perawatan gigi dengan mengingatkan anak untuk menyikat gigi secara teratur. Selain itu, penting untuk membawa anak ke Posyandu, Puskesmas, atau fasilitas kesehatan setiap bulan guna memantau pertumbuhan dan perkembangan anak, serta mendapatkan layanan kesehatan yang diperlukan. Pada kunjungan tersebut, anak akan dipantau pertumbuhannya, perkembangan pada usia 24 bulan, 30 bulan, dan 36 bulan, serta mendapatkan pelayanan seperti pemberian kapsul Vitamin A (bulan Februari dan Agustus) dan obat cacing. Selain itu, orang tua atau anggota keluarga dapat mengikuti Kelas Ibu Balita yang disediakan untuk mendapatkan pengetahuan dan informasi terkait perawatan anak.",
+            "qas":[]
+        }
+    ]
+  }
+]

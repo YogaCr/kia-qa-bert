@@ -1,0 +1,2 @@
+
+Selama kehamilan, ibu hamil perlu menghindari beberapa hal agar kesehatan ibu dan janin tetap terjaga. Diantaranya adalah kerja berat yang dapat menimbulkan tekanan berlebih pada tubuh, tidur terlentang lebih dari 10 menit pada masa hamil tua, merokok atau terpapar asap rokok, minum obat tanpa resep dokter, mengonsumsi minuman bersoda dan jamu, serta mengalami stres berlebihan. Penting bagi ibu hamil untuk berkonsultasi dengan bidan, perawat, atau dokter untuk mendapatkan penjelasan lebih lanjut serta saran yang spesifik terkait kehamilan masing-masing.

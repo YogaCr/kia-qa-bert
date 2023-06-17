@@ -1,0 +1,51 @@
+# Pemantauan Kesehatan Bayi Baru Lahir 0-28 Hari (Neonatus)
+
+Sejak bayi lahir sampai usia 28 hari, ibu dan keluarga mendeteksi keadaan bayinya. Apabila ditemukan 1 kriteria atau lebih tanda bayi tidak sehat, segera dibawa ke fasilitas kesehatan (Puskesmas, dokter praktik, dan Rumah Sakit)
+
+- Napas : 
+	- Sehat : 40-60 kali/menit
+- Tidak Sehat : Kurang 40 kali/menit atau lebih dari 60 kali/menit
+- Warna kulit : 
+	- Sehat : Merah muda
+	- Tidak Sehat : Bayi pucat/biru pada tubuh
+- Kejang : 
+	- Sehat : Tidak ada
+    - Tidak Sehat : Ada, mata mendelik, tangan bergerak seperti menari, menangis melengking, tiba-tiba badan kaku, mulut mencucu
+- Aktivitas : 
+    - Sehat : Menangis jika sedang haus dan buang air
+    - Tidak Sehat : Menangis terus, bayi lemas tidak bergerak
+- Minum ASI : 
+    - Sehat : Mau minum
+    - Tidak Sehat : Tidak mau minum atau memuntahkan semuanya
+- Hisapan bayi : 
+    - Sehat : Hisapan kuat
+    - Tidak Sehat : Hisapan lemah
+- Kuning pada bayi : 
+    - Sehat : Tidak ada, apabila ada maka : 
+        - Muncul antara 24-72 jam pertama
+        - Hilang dalam 2 minggu
+        - Bilirubin < 15 mg/dl
+    - Tidak Sehat : Ada :
+        - Muncul < 24 jam pertama atau menetap setelah 2 minggu
+        - Bilirubin > 15 mg/dl
+- Buang air kecil : 
+    - Sehat : Warna kuning jernih 6 - 8 kali/hari
+    - Tidak Sehat : Warna kencing kuning pekat dan sedikit (< 6 kali/hari)
+- Buang air besar : 
+    - Sehat : Encer berisi seperti biasanya
+    - Tidak Sehat : Sangat encer/ tidak bisa buang air besar lebih dari 3 hari (adanya perubahan konsistensi dan frekuensi buang air besar)
+- Suhu tubuh : 
+    - Sehat : Normal (36,5 - 37,5 derajat celsius)
+    - Tidak Sehat : Panas seluruh tubuh/ dingin seluruh tubuh
+- Tali pusat : 
+    - Sehat : Bersih
+    - Tidak Sehat : Merah di pinggir tali pusat/ bernanah/ berbau
+- Mata : 
+    - Sehat : Bening
+    - Tidak Sehat : Merah menetap, bernanah, ada kotoran
+- Bercak putih di mulut : 
+    - Sehat : Tidak ada
+    - Tidak Sehat : Ada
+- Kulit : 
+    - Sehat : Bersih
+    - Tidak Sehat : Ada bintil, bernanah berair dan kemerahan

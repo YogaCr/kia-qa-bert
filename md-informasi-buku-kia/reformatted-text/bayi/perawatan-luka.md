@@ -1,0 +1,1 @@
+Untuk mengobati luka, cuci bersih luka dengan menggunakan air bersih mengalir. Apabila terdapat koreng, periksakan ke fasilitas pelayanan kesehatan. Bawa bayi ke fasilitas pelayanan kesehatan apabila luka bernanah atau berbau
