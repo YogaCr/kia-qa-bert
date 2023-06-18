@@ -28,13 +28,25 @@ def import_nltk():
     nltk.download('punkt')
     nltk.download('stopwords')
 
-tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
-model = BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
+@st.cache_data
+def import_tokenizer():
+    return BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
+
+@st.cache_data
+def import_model():
+    return BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
+
+tokenizer = import_tokenizer()
+model = import_model()
 model = model.to(torch_device)
 
 kb_datas = st.session_state.get('kb_datas', pd.DataFrame(columns=['context','tokenized','file_path']))
 
-kb_files = glob.glob("./md-informasi-buku-kia/reformatted-text/*/*.md")
+@st.cache_data
+def import_kb_files():
+    return glob.glob("./md-informasi-buku-kia/reformatted-text/*/*.md")
+
+kb_files = import_kb_files()
     
 def preprocess_text(context):
     lowercase_context = context.lower()
