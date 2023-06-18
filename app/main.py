@@ -1,3 +1,6 @@
+import sklearn
+from sklearn.feature_extraction.text import TfidfVectorizer
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -5,7 +8,6 @@ from transformers import BertTokenizer, BertForQuestionAnswering
 import torch
 
 from rank_bm25 import BM25Okapi
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 import glob
 

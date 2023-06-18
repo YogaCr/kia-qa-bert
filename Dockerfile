@@ -14,13 +14,14 @@ COPY . .
 
 
 RUN pip3 install --no-cache-dir -r requirements.txt
-RUN python -m nltk.downloader popular
+RUN python3 -m nltk.downloader popular
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 
+WORKDIR "/app/app"
 
-EXPOSE 80
+EXPOSE 8000
 
 # Start the app
-CMD ["cd app/app", "&&" ,"gunicorn", "-b", "0.0.0.0:80","main:app","--workers","1","-k","uvicorn.workers.UvicornWorker", "--timeout","0"]
+CMD ["gunicorn", "main:app","--workers","1","-k","uvicorn.workers.UvicornWorker", "--timeout","0"]

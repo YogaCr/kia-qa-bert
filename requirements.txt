@@ -9,3 +9,5 @@ glob2
 numpy
 Sastrawi
 nltk
+scikit-learn==1.2.1
+pandas===1.5.3
