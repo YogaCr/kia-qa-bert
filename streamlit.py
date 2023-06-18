@@ -1,6 +1,6 @@
 import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+import gc
 import streamlit as st
 from annotated_text import annotated_text
 
@@ -19,6 +19,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
+gc.enable()
+gc.collect()
 torch_device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print ("Device ", torch_device)
 torch.set_grad_enabled(False)
