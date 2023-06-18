@@ -31,7 +31,7 @@ model = model.to(torch_device)
 
 kb_datas = st.session_state.get('kb_datas', pd.DataFrame(columns=['context','tokenized','file_path']))
 
-kb_files = glob.glob("../md-informasi-buku-kia/reformatted-text/*/*.md")
+kb_files = glob.glob("./md-informasi-buku-kia/reformatted-text/*/*.md")
     
 def preprocess_text(context):
     lowercase_context = context.lower()
@@ -106,7 +106,7 @@ def getanswer(question: str,show_rank: bool = False):
 def getmd(file_path: str):
     print(file_path)
     try:
-        f = open("../md-informasi-buku-kia/"+file_path, "r")
+        f = open("./md-informasi-buku-kia/"+file_path, "r")
         context = f.read()
         return {"content": context}
     except:
