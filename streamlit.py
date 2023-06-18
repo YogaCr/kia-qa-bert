@@ -144,7 +144,7 @@ if st.button("Submit"):
 
     answer_index, end_index = -1,-1
 
-    for i in re.finditer(answer['answer'], answer['context']):
+    for i in re.finditer(answer['answer'].lower(), answer['context'].lower()):
         answer_index = i.start()
         end_index = i.end()
         break
