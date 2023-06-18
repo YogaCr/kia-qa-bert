@@ -67,7 +67,7 @@ def import_context():
     st.session_state.kb_datas = kb_datas
 
 def choose_context(question):
-    kb_datas = st.session_state.kb_datas
+    kb_datas = st.session_state.get('kb_datas', pd.DataFrame(columns=['context','tokenized','file_path']))
     query_tokens = preprocess_text(question)
     query_tokens = ' '.join(query_tokens)
     vectorizer = TfidfVectorizer()
