@@ -22,8 +22,11 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 torch_device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print ("Device ", torch_device)
 torch.set_grad_enabled(False)
-nltk.download('punkt')
-nltk.download('stopwords')
+
+@st.cache_data
+def import_nltk():
+    nltk.download('punkt')
+    nltk.download('stopwords')
 
 tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
 model = BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
@@ -114,6 +117,7 @@ def getmd(file_path: str):
     
 st.title("KIA Question Answering System")
 data_load_state = st.text('Loading data...')
+import_nltk()
 import_context()
 print("startup done")
 
