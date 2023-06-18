@@ -23,8 +23,8 @@ print ("Device ", torch_device)
 torch.set_grad_enabled(False)
 
 
-tokenizer = BertTokenizer.from_pretrained("../qa-model-pytorch/",local_files_only=True)
-model = BertForQuestionAnswering.from_pretrained("../qa-model-pytorch/",local_files_only=True)
+tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
+model = BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
 model = model.to(torch_device)
 
 kb_datas = st.session_state.get('kb_datas', pd.DataFrame(columns=['context','tokenized','file_path']))
