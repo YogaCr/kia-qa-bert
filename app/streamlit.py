@@ -14,6 +14,7 @@ import pandas as pd
 
 import string
 import re
+import nltk
 from nltk.tokenize import word_tokenize 
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -22,6 +23,7 @@ torch_device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print ("Device ", torch_device)
 torch.set_grad_enabled(False)
 
+nltk.download('stopwords')
 
 tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
 model = BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
