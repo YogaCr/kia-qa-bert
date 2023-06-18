@@ -22,7 +22,7 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 torch_device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print ("Device ", torch_device)
 torch.set_grad_enabled(False)
-
+nltk.download('punkt')
 nltk.download('stopwords')
 
 tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
