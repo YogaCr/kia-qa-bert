@@ -1,10 +1,10 @@
 FROM python:3.9-slim as builder
 
 #set up environment
-RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
-RUN apt-get install unzip
-RUN apt-get -y install python3
-RUN apt-get -y install python3-pip
+# RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
+# RUN apt-get install unzip
+# RUN apt-get -y install python3
+# RUN apt-get -y install python3-pip
 
 # Copy our application code
 WORKDIR /app
