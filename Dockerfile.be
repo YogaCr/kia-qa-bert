@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.2.0-runtime-ubuntu20.04
+FROM python:3.9-slim as builder
 
 #set up environment
 RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
@@ -21,7 +21,7 @@ ENV LANG=C.UTF-8
 
 WORKDIR "/app/app"
 
-EXPOSE 8000
+EXPOSE 5421
 
 # Start the app
-CMD ["gunicorn", "main:app","--workers","1","-k","uvicorn.workers.UvicornWorker", "--timeout","0"]
+CMD ["gunicorn","--bind","0.0.0.0:5421", "main:app", "--timeout","0"]
