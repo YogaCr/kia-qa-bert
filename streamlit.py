@@ -19,28 +19,27 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
-gc.enable()
-gc.collect()
 torch_device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print ("Device ", torch_device)
 torch.set_grad_enabled(False)
 
-@st.cache_data
+@st.cache_resource
 def import_nltk():
     nltk.download('punkt')
     nltk.download('stopwords')
 
-@st.cache_data
+@st.cache_resource
 def import_tokenizer():
     return BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
 
-@st.cache_data
+@st.cache_resource(show_spinner=False)
 def import_model():
     return BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
 
 tokenizer = import_tokenizer()
 model = import_model()
 model = model.to(torch_device)
+model.eval()
 
 kb_datas = st.session_state.get('kb_datas', pd.DataFrame(columns=['context','tokenized','file_path']))
 
@@ -110,6 +109,9 @@ def qa_system(question, max_len=512):
     answer=""
     if(total_score>0):
         answer = tokenizer.convert_tokens_to_string(tokens[start_index:end_index])
+    torch.cuda.empty_cache()
+    gc.collect()
+
     return answer,context, file_path, total_score, start_index, end_index
 
 
@@ -142,22 +144,23 @@ if st.button("Submit"):
     answer= getanswer(question)
     st.write("Jawaban: ", answer['answer'])
 
-    answer_index, end_index = -1,-1
+    if answer['score'] >0:
+    
+        answer_index, end_index = -1,-1
 
-    for i in re.finditer(answer['answer'].lower(), answer['context'].lower()):
-        answer_index = i.start()
-        end_index = i.end()
-        break
+        for i in re.finditer(answer['answer'].lower(), answer['context'].lower()):
+            answer_index = i.start()
+            end_index = i.end()
+            break
 
-    st.write("Sumber Jawaban: ")
-    annotated_text(
-        answer['context'][:answer_index],
-        (answer['context'][answer_index:end_index], "","#f39c12"),
-        answer['context'][end_index:]
-    )
+        st.write("Sumber Jawaban: ")
+        annotated_text(
+            answer['context'][:answer_index],
+            (answer['context'][answer_index:end_index], "","#f39c12"),
+            answer['context'][end_index:]
+        )
 
-    st.write("Teks Asli (Tanpa parafrase): ")
-    st.markdown(getmd(answer['path'])['content'])
+        st.write("Teks Asli (Tanpa parafrase): ")
+        st.markdown(getmd(answer['path'])['content'])
 
-    st.write("Skor: ", answer['score'])
-
+        st.write("Skor: ", answer['score'])

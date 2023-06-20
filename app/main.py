@@ -19,6 +19,7 @@ import re
 from nltk.tokenize import word_tokenize 
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+import gc
 
 app = FastAPI()
 
@@ -30,6 +31,7 @@ torch.set_grad_enabled(False)
 tokenizer = BertTokenizer.from_pretrained("YogaCr/kia-qa-model")
 model = BertForQuestionAnswering.from_pretrained("YogaCr/kia-qa-model")
 model = model.to(torch_device)
+model.eval()
 
 kb_datas = pd.DataFrame(columns=['context','tokenized'])
 
@@ -96,6 +98,8 @@ def qa_system(question, max_len=512):
     answer=""
     if(total_score>0):
         answer = tokenizer.convert_tokens_to_string(tokens[start_index:end_index])
+    torch.cuda.empty_cache()
+    gc.collect()
     return answer,context, file_path, total_score
 
 
