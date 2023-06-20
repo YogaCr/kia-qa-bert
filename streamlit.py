@@ -142,13 +142,13 @@ question = st.text_input('Masukkan pertanyaan anda', placeholder = 'Berapa lama 
 if st.button("Submit"):
     
     answer= getanswer(question)
-    st.write("Jawaban: ", answer['answer'])
-
-    if answer['score'] >0:
+    answer_text=re.sub(r'\s+(?=[\W])|(?<=[-])\s', '', answer['answer'])        
+    st.write("Jawaban: ", answer_text)
     
+    if answer['score'] > 0 :
         answer_index, end_index = -1,-1
 
-        for i in re.finditer(answer['answer'].lower(), answer['context'].lower()):
+        for i in re.finditer(answer_text.lower(), answer['context'].lower()):
             answer_index = i.start()
             end_index = i.end()
             break
